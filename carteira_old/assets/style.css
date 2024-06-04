@@ -1,0 +1,505 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #e2f1e3 !important;
+  
+    
+}
+
+.navbar{
+    background-color: #22A42F !important;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6); 
+}
+
+h5{
+    color: #F5F9F6 !important;
+}
+
+.wrapper{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    background-color: #F5F9F6;
+    width: 500px;
+    padding: 2em;
+    border-radius: 1em;
+    perspective: 800px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+}
+
+.credit-card{
+    position: relative;
+    width: 350px;
+    height: 220px;
+    margin: auto;
+    transform-style: preserve-3d;
+    transition: 0.3s;
+}
+
+.card-front,.card-back{
+    position: relative;
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(#22A42F, #346767);
+    border-radius: 10px;
+    backface-visibility: hidden;
+    
+}
+
+.card-front{
+    padding: 2em 1em;
+    z-index: 3;
+}
+
+.card-back{
+    transform: rotateY(180deg);
+}
+
+.branding{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-prefeitura2{
+    margin-top: -65px;
+    width: 25rem;
+    object-fit: cover;
+    
+}
+
+.logo_reciprev{
+    margin-top: 16%;
+    margin-left: 70%;
+    
+}
+
+.familia{
+    position: absolute;
+    top: 2%;
+    left: 38%;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+
+
+.details{
+    margin-top: -27%;
+    font-size: 12px;
+    z-index: 3;
+    color: #ffff;
+}
+
+.card-number{
+    color: #e2f1e3;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.logo_reci{
+    margin-top: 9%;
+    margin-left: 65%;
+    opacity: 0.4;
+}
+
+.logo_reci_back{
+    margin-top: 4%;
+    margin-right: 4%;
+}
+
+.back-logo{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.container{
+    margin-top: 5%;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    color: #e2f1e3;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+
+.number2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -2%;
+}
+
+.number1{
+    margin-top: 2% ;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.caption{
+    font-weight: 600;
+}
+
+.form-control:focus{
+    border-color: #22A42F;
+    box-shadow: 0 0 0 0.3rem rgba(40, 167, 69, 0.25) !important;
+}
+
+.form-label{
+    font-weight: bold;
+    color: #346767;
+    font-size: 14px;
+}
+
+.form-control{
+    border-radius: 10rem !important;
+    border-color: #346767 !important; 
+    
+}
+
+.btn{
+    margin-top: 6%;
+    margin-left: 35%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);  
+    background-color: #22A42F !important;
+}
+
+
+.footer{
+    background-color: #F5F9F6 !important;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #346767;
+    font-weight: bold;
+}
+
+.button-search{
+    width: 200px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.input-search{
+    border-radius: 10rem ;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #e2f1e3 !important;
+  
+    
+}
+
+.navbar{
+    background-color: #22A42F !important;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6); 
+}
+
+h5{
+    color: #F5F9F6 !important;
+}
+
+.wrapper{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    background-color: #F5F9F6;
+    width: 500px;
+    padding: 2em;
+    border-radius: 1em;
+    perspective: 800px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+}
+
+.credit-card{
+    position: relative;
+    width: 350px;
+    height: 220px;
+    margin: auto;
+    transform-style: preserve-3d;
+    transition: 0.3s;
+}
+
+.card-front,.card-back{
+    position: relative;
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(#22A42F, #346767);
+    border-radius: 10px;
+    backface-visibility: hidden;
+    
+}
+
+.card-front{
+    padding: 2em 1em;
+    z-index: 3;
+}
+
+.card-back{
+    transform: rotateY(180deg);
+}
+
+.branding{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-prefeitura2{
+    margin-top: -65px;
+    width: 25rem;
+    object-fit: cover;
+    
+}
+
+.logo_reciprev{
+    margin-top: 16%;
+    margin-left: 70%;
+    
+}
+
+.familia{
+    position: absolute;
+    top: 2%;
+    left: 38%;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+
+
+.details{
+    margin-top: -27%;
+    font-size: 12px;
+    z-index: 3;
+    color: #ffff;
+}
+
+.card-number{
+    color: #e2f1e3;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.logo_reci{
+    margin-top: 9%;
+    margin-left: 65%;
+    opacity: 0.4;
+}
+
+.logo_reci_back{
+    margin-top: 4%;
+    margin-right: 4%;
+}
+
+.back-logo{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.container{
+    margin-top: 5%;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    color: #e2f1e3;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+
+.number2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -2%;
+}
+
+.number1{
+    margin-top: 2% ;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.caption{
+    font-weight: 600;
+}
+
+.form-control:focus{
+    border-color: #22A42F;
+    box-shadow: 0 0 0 0.3rem rgba(40, 167, 69, 0.25) !important;
+}
+
+.form-label{
+    font-weight: bold;
+    color: #346767;
+    font-size: 14px;
+}
+
+.form-control{
+    border-radius: 10rem !important;
+    border-color: #346767 !important; 
+    
+}
+
+/* .form-control-search{
+    margin-right: 5%;
+    margin-top: -1px;
+    border: none;
+    box-shadow:0px 0px 5px rgba(0, 0, 0, 1);
+    border-radius: 10rem !important;
+    border-color: #346767 !important;  
+} */
+
+.btn{
+    margin-top: 6%;
+    margin-left: 35%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);  
+    background-color: #22A42F !important;
+}
+
+/* .btn-search{
+    margin-top: 5%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20%;
+    background-color: inherit;
+}
+
+.btn-search:focus{
+    border-color: #346767;
+    box-shadow: 0 0 0 0.3rem rgba(40, 167, 69, 0.25) !important;
+} */
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+  }
+  
+  .input {
+    border-style: none;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    outline: none;
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+    background-color: #24912f;
+    box-shadow: 0px 0px 2px #e2f1e3;
+    padding-right: 40px;
+    color: #fff;
+  }
+  
+  .input::placeholder,
+  .input {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 17px;
+  }
+  
+  .input::placeholder {
+    color: white;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border-style: none;
+    border-radius: 50%;
+    pointer-events: painted;
+    background-color: transparent;
+    transition: 0.2s linear;
+  }
+  
+  .icon:focus ~ .input,
+  .input:focus {
+    box-shadow: none;
+    width: 250px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+  }
+  
+
+.footer{
+    background-color: #F5F9F6 !important;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #346767;
+    font-weight: bold;
+}
+
+.button-search{
+    width: 200px;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    color: white;
+    margin-top: 15%;
+
+}
+
+.container-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* #pesquisar{
+    border-radius: 10px;
+}
+
+#lupa{
+    border-top-width: 5px;
+    border-top-style: solid;
+} */
+
+
